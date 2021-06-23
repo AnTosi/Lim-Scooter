@@ -1,0 +1,103 @@
+/* selector {
+  property: value;
+
+} */
+
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.contenitore {
+  width: 65%;
+  height: 120%;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  background-color:rgba(0, 0, 0, 0.4);
+  border-radius: 30px;
+  padding-top: 0.5%;
+  margin-top: 2%;
+  padding-bottom: 3%;
+}
+
+header {
+  color:#34eb61;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 16px;
+}
+
+header > h1 {
+  margin:0%;
+}
+header > img {
+  width: 200px;
+}
+
+nav {
+  display: flex;
+  width: 80%;
+  margin-left: 8%;
+  background-color: #34eb61;
+  height:auto;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+
+}
+
+nav>button{
+  width: auto;
+  margin-left: 5px;
+}
+
+main {
+  margin-left: 8%;
+  margin-right: 8%;
+  padding:2px;
+}
+
+span h1{
+  display: inline-block;
+  margin-top: 24px;
+  margin-bottom: 1px;
+  margin-left: 10px;
+  font-size: 24px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+/* questa è la freccetta */
+section p:before {
+    content: ' \2192';
+}
+
+/* queste sono le barre di caricamento */
+.barra {
+  margin-top: 2px;
+  height: 20px;
+  border-radius: 3px;
+}
+
+.gialla {
+  background-color: orange;
+  width: 200px;
+}
+
+.verde {
+  background-color: green;
+  width: 400px;
+}
+
+.rossa {
+  background-color: red;
+  width: 100px;
+}
